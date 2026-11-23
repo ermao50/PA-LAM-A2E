@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Supplementary videos for PA-LAM-A2E: prosody- and action-basis-driven expression enhancement for interactive digital humans.">
+  <title>PA-LAM-A2E · Supplementary Videos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="videos.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#viewer">Skip to videos</a>
+<header class="site-header"><a class="wordmark" href="#">PA-LAM-A2E<span>Supplementary material</span></a><nav aria-label="Main navigation"><a href="#viewer">Videos</a><a href="#experiment">Experiment</a></nav></header>
+<main>
+  <section class="hero">
+    <p class="eyebrow">INTERACTIVE DIGITAL HUMANS</p>
+    <h1><span>PA-LAM-A2E</span><br>Prosody- and Action-Basis-Driven<br class="desktop-break"> Expression Enhancement</h1>
+    <p class="lead">From speech rhythm to coordinated brow and eyelid motion.</p>
+    <p class="intro">Prosodic events determine when an expression develops. Open and Focus action bases determine how the brows and eyelids move together. These additional motions are combined with the original LAM-A2E output.</p>
+    <div class="hero-meta"><span>5 speech examples</span><i></i><span>6 method configurations</span><i></i><span>Full-length comparisons</span></div>
+  </section>
+
+  <section id="viewer" class="viewer" aria-labelledby="viewer-title">
+    <div class="section-heading"><div><p class="eyebrow">WATCH & COMPARE</p><h2 id="viewer-title">One speech clip. Different expressions.</h2></div><span class="small-note">Original audio · 30 fps</span></div>
+    <div class="mode-tabs" role="tablist" aria-label="Comparison type"><button id="tab-ablation" role="tab" aria-selected="true" aria-controls="comparison-panel" data-mode="ablation">Ablation <span>B / P / PA</span></button><button id="tab-comparison" role="tab" aria-selected="false" aria-controls="comparison-panel" data-mode="comparison" tabindex="-1">Method comparison <span>Five methods</span></button></div>
+    <div class="clip-buttons" role="group" aria-label="Choose a speech clip"></div>
+    <div id="comparison-panel" role="tabpanel" aria-labelledby="tab-ablation">
+      <div class="player-heading"><div><h3 id="clip-title">T2 · Excited</h3><p id="clip-description">Emphatic delivery and an excited tone.</p></div><span id="clip-duration" class="duration"></span></div>
+      <div class="method-key" id="method-key" aria-label="Methods from left to right"></div>
+      <div class="video-shell"><video id="player" controls playsinline preload="metadata" aria-label="Full-length ablation comparison"></video><p id="video-error" hidden>Unable to load this video. Please try the download link below.</p></div>
+      <div class="player-toolbar"><div class="transport"><button id="replay" class="text-button" type="button">Replay from start</button><label for="speed">Speed</label><select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option></select></div><a id="download" class="download" download>Download MP4 <span id="download-size"></span></a></div>
+      <p class="viewing-note" id="viewing-note"></p>
+    </div>
+    <div class="filmstrip" id="filmstrip" aria-label="All five speech examples"></div>
+  </section>
+
+  <section id="experiment" class="experiment" aria-labelledby="experiment-title">
+    <div class="section-heading"><div><p class="eyebrow">EXPERIMENT NOTES</p><h2 id="experiment-title">What changes between the methods?</h2></div></div>
+    <div class="method-explanation">
+      <article><span class="method-letter base">B</span><h3>LAM-A2E</h3><p>The baseline converts speech into facial blendshape coefficients. Its output is rendered on the same avatar used by the enhanced configurations.</p></article>
+      <article><span class="method-letter prosody">P</span><h3>Prosodic events</h3><p>Energy, pitch, and their changes locate speech events. Each event drives a fixed brow-raising motion with a rise and a return to rest.</p></article>
+      <article><span class="method-letter ours">PA</span><h3>Prosody + action bases</h3><p>The same event timing drives a combination of Open and Focus. Open raises the brows and opens the eyes; Focus lowers the brows and tightens the eyelids.</p></article>
+    </div>
+    <div class="protocol">
+      <div><h3>Shared speech and rendering</h3><p>T1–T5 represent calm, excited, questioning, serious, and lively delivery. The Chinese speech was synthesized with edge-tts using the <code>zh-CN-YunxiNeural</code> voice. Within each comparison, every method uses the same audio, avatar, camera, and frame rate.</p><p>The upper row presents the face; the lower row enlarges the corresponding brows and eyes. All columns in each video are already synchronized.</p></div>
+      <div><h3>Same-avatar model comparison</h3><p>The five columns show EchoAvatar, EmoTalk, NVIDIA Audio2Face-3D, LAM-A2E, and PA-LAM-A2E. Their animation outputs are rendered on the same avatar.</p><p>These five representative examples accompany the manuscript’s quantitative evaluation on 50 speech clips. This page contains the video supplement and experiment descriptions.</p></div>
+    </div>
+  </section>
+</main>
+<footer><span>PA-LAM-A2E</span><span>Supplementary videos & experiment notes</span></footer>
+<noscript><p class="noscript">Enable JavaScript to switch clips, or open <a href="T2-ablation.mp4">the T2 ablation video</a> directly.</p></noscript>
+</body>
+</html>
