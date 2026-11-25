@@ -7,21 +7,21 @@ window.VIDEO_DATA = [
       "src": "T1-ablation.mp4",
       "poster": "T1-ablation.jpg",
       "seconds": 16.766667,
-      "bytes": 4682393,
+      "bytes": 4604720,
       "width": 1920,
       "height": 1080,
       "fps": 30,
-      "sha256": "b46e6bdaf6b9233330df1b6cbdffadf12853a608667f3737d9aa5c0977fd7486"
+      "sha256": "e9dc17a4ea4ee635d8e43d088bdea75e5b285e3c56fdd830c8c5632953257612"
     },
     "comparison": {
       "src": "T1-comparison.mp4",
       "poster": "T1-comparison.jpg",
       "seconds": 16.766667,
-      "bytes": 7305064,
+      "bytes": 7121426,
       "width": 3200,
       "height": 1080,
       "fps": 30,
-      "sha256": "c9d5fb62efadddde93f2fbc362d2748dca01bd75889766c21f9a04e37531627f"
+      "sha256": "ca6fbf9e687d3d0a86df7cc9f020e2ed494e7e31745c70da393f66a190dacffd"
     },
     "seconds": 16.766667
   },
@@ -33,21 +33,21 @@ window.VIDEO_DATA = [
       "src": "T2-ablation.mp4",
       "poster": "T2-ablation.jpg",
       "seconds": 13.233333,
-      "bytes": 3611637,
+      "bytes": 3562510,
       "width": 1920,
       "height": 1080,
       "fps": 30,
-      "sha256": "813e75d5782599d7dbbbc6fec4c8ff8ac3be384be69e80ce8dc11c3a2063b9cd"
+      "sha256": "7a3131c707779b51321d93ff972c8c59e52a80011e82d955f72880773ed86180"
     },
     "comparison": {
       "src": "T2-comparison.mp4",
       "poster": "T2-comparison.jpg",
       "seconds": 13.233333,
-      "bytes": 5627765,
+      "bytes": 5527781,
       "width": 3200,
       "height": 1080,
       "fps": 30,
-      "sha256": "9acf32d8f301a9b359fbfb5d4e4f63d9f48f05b0166a8b6e3af396121488d43c"
+      "sha256": "d404a91e34f4f36120f96622ec41de05461c6c026ba1ba202945e854f6becb68"
     },
     "seconds": 13.233333
   },
@@ -59,21 +59,21 @@ window.VIDEO_DATA = [
       "src": "T3-ablation.mp4",
       "poster": "T3-ablation.jpg",
       "seconds": 13.333333,
-      "bytes": 3657416,
+      "bytes": 3584861,
       "width": 1920,
       "height": 1080,
       "fps": 30,
-      "sha256": "2165e2c0d21a6bc061fd8888473a9bb87dfd744d4ec8de25e3fc37dbebc77003"
+      "sha256": "f6a216bf75feba79cb9e46b26d01aa9547024c2c7ddf0106843edc891bf65b94"
     },
     "comparison": {
       "src": "T3-comparison.mp4",
       "poster": "T3-comparison.jpg",
       "seconds": 13.333333,
-      "bytes": 5655125,
+      "bytes": 5510506,
       "width": 3200,
       "height": 1080,
       "fps": 30,
-      "sha256": "a8f1c5c15a2e3d09377830b5f3f46586288d6e46b83ce0d52d7002ccd666beaf"
+      "sha256": "6a6eda9b608bf7f8b67a9e28b40bdf6fdd3a5f09dc5bdfc6b97e52eb89acda4c"
     },
     "seconds": 13.333333
   },
@@ -85,21 +85,21 @@ window.VIDEO_DATA = [
       "src": "T4-ablation.mp4",
       "poster": "T4-ablation.jpg",
       "seconds": 16.3,
-      "bytes": 4436058,
+      "bytes": 4349993,
       "width": 1920,
       "height": 1080,
       "fps": 30,
-      "sha256": "d8d77e747046f292accb71b09f964686df7cb947f20522f3bc951692fe82b716"
+      "sha256": "a7a86733616e0f985806dca9e0028b44d272548a2ea95b25d47688e0082118e5"
     },
     "comparison": {
       "src": "T4-comparison.mp4",
       "poster": "T4-comparison.jpg",
       "seconds": 16.3,
-      "bytes": 6870120,
+      "bytes": 6723392,
       "width": 3200,
       "height": 1080,
       "fps": 30,
-      "sha256": "cd6e8c0073713aea1845bf75313a484482d8404dcb2b21b11b691e58c3afa949"
+      "sha256": "e924ceee6f63ee219ebc24f0bae2966e302e1d57f7a413274b100d623b219701"
     },
     "seconds": 16.3
   },
@@ -111,21 +111,21 @@ window.VIDEO_DATA = [
       "src": "T5-ablation.mp4",
       "poster": "T5-ablation.jpg",
       "seconds": 11.333333,
-      "bytes": 3226196,
+      "bytes": 3160758,
       "width": 1920,
       "height": 1080,
       "fps": 30,
-      "sha256": "32624290862e2fa57f026653d75ce3aef374a8143c2a41be2be67cb3f457d083"
+      "sha256": "c48a4524b5bbe78c8b2d33cbe45766f899b3eabed33f2f081f1c2f284baa287b"
     },
     "comparison": {
       "src": "T5-comparison.mp4",
       "poster": "T5-comparison.jpg",
       "seconds": 11.333333,
-      "bytes": 5026048,
+      "bytes": 4944927,
       "width": 3200,
       "height": 1080,
       "fps": 30,
-      "sha256": "37ea3dab48e301f14dccfd924df07521550cddb78bce4b16079a36f185e17fd6"
+      "sha256": "d8c3d056dced9fd41b0ec77fef0363b44270fe738307f3aa6d5ce2fdc5dc7ba6"
     },
     "seconds": 11.333333
   }
